@@ -22,8 +22,14 @@ public static class ArraySelector
         var result = new int[select.length]
         var length1index = 0
         var length2index = 0
-        for var i=1; i<select length;i++
-        return new int[0];
+        for (var i=1; i<select length;i++)
+        {
+            if select[i] = 1
+                result[i] = list1[length1index++];
+            else
+                result[i] = list2[length2index++];
+        }
+        return result;
     }
 
     private static char[] ListSelector(char[] list1, char[] list2, int[] select)
