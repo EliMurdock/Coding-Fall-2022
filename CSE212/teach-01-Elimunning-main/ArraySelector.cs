@@ -19,6 +19,10 @@ public static class ArraySelector
 
     private static int[] ListSelector(int[] list1, int[] list2, int[] select)
     {
+        var result = new int[select.length]
+        var length1index = 0
+        var length2index = 0
+        for var i=1; i<select length;i++
         return new int[0];
     }
 
